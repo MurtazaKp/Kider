@@ -1,0 +1,892 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    color: #103741;
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #74787c;
+
+}
+.head{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 20px;
+    height: 60px;
+}
+.head ul{
+    display: none;
+}
+.head h2{
+    display: inline-block;
+    font-size: 30px;
+}
+.head div i{
+    font-size: 30px;
+}
+
+.head div{
+    color:#fe5d37;
+}
+
+.herosection{
+    height: 350px;
+background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(../images/carousel-1.jpg) no-repeat;
+background-size: 350% 100%;
+background-position: -490px;
+display: flex;
+align-items: center;
+padding: 0 20px;
+}
+.herosection h1{
+    padding: 0 0 20px ;
+    line-height: 1.3;
+    color: #fff;
+    width:80%;
+    
+}
+
+.herosection div p{
+    color: #fff;
+    padding: 0 0 20px;
+    font-weight: 800;
+}
+
+.herosection button,.activities button,.teacher button, .head ul button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fe5d37;
+    border: 1px solid #fe5d37;
+    color: #fff;
+    font-size: 15px;
+
+}
+.herosection .color{
+    background:#103741;
+    border: 1px solid #103741;
+    margin: 0 0 0 20px ;
+}
+.facilities{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+}
+.facilities p{
+    color: #74787c;
+    transition: 1s;
+}
+
+.facilities h2,.activities h2{
+    padding: 60px 20px 20px;
+    color: #103741;
+}
+
+.facilities .p,.activities p{
+    margin:0 20px 30px ;
+    
+}
+
+
+
+.facilities div i{
+    font-size: 50px;
+    padding:50px;
+    transition: 1s;
+}
+
+
+.facilities .sub:hover .or{
+    border-radius: 100%;
+    background-color:#fe5d37;
+    color: #fff;
+
+}
+.hov{
+    padding: 20px;
+    transition: 1s;
+}
+
+
+.facilities .sub:hover .hov{
+    border-radius:100%;
+    background-color:#fe5d37 ;
+   
+}
+
+.hov2{
+    padding: 20px;
+    transition: 1s;
+}
+.facilities .sub:hover .hov2{
+    border-radius: 100%;
+    background-color: #198754;
+}
+
+.facilities .sub:hover .gr{
+    border-radius: 100%;
+    background-color:#198754;
+    color: #fff;
+}
+
+.hov3{
+    padding: 20px;
+    transition: 1s;
+}
+.facilities .sub:hover .hov3{
+    border-radius: 100%;
+    background-color: #ffe207;
+}
+
+.facilities .sub:hover .ye{
+    border-radius: 100%;
+    background-color:#ffe207;
+    color: #fff;
+}
+
+.hov4{
+    padding: 20px;
+    transition: 1s;
+}
+.facilities .sub:hover .hov4{
+    border-radius: 100%;
+    background-color: #0dcaf0;
+}
+
+.facilities .sub:hover .bl{
+    border-radius: 100%;
+    background-color:#0dcaf0;
+    color: #fff;
+}
+
+
+.facilities .sub:hover p{
+    color: #fff;
+}
+
+.facilities .sub:hover h3{
+    color: #fff;
+}
+
+
+
+.facilities div p{
+    padding: 0 10px;
+   
+    width: 80%;
+    margin: 0 auto;
+}
+.facilities div h3{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    transition: 1s;
+}
+
+
+
+.orange{color: #fe5d37;}
+.green{color: #198754;}
+.yellow{color: #ffe207;}
+.blue{color:#0dcaf0 ;}
+
+.activities {
+    line-height: 1.5;
+    color: #74787c;
+    display: flex;
+    flex-direction: column;       
+}
+
+.activities div button{
+    margin:  0 20px;
+}
+
+.activities .children{
+   
+    position: relative;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.children img{
+    border-radius: 100%;
+    position: absolute;
+    border: 10px solid white;
+}
+
+.child1{
+    top:0%;
+    width: 70%;
+    margin: 30px 0 0 0;
+    
+}
+.child2{
+    right:2%;
+    width: 35%;
+}
+
+
+.child3{
+    left: -1%;
+    width: 35%;
+}
+
+.child1:hover{
+    border:10px solid #fe5d37;
+}
+.child2:hover{
+    border:10px solid #fe5d37;
+}
+.child3:hover{
+    border:10px solid #fe5d37;
+}
+
+.teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+}
+.teacher img{
+    width: 90%;
+    margin: 40px auto  
+}
+.teacher div{
+    text-align: center;
+    color: #103741;
+}
+.teacher div p{
+    text-align: justify;
+    color: #74787c;
+    padding: 30px;
+    
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+}
+
+.classes p{
+    padding: 30px;
+    text-align: justify;
+
+}
+.classes img{
+    width: 80%;
+    margin: 20px 0 ;
+    border-radius: 100%;
+}
+
+.classes div .john{
+    border-radius: 100%;
+    width: 20%;
+}
+.classes div .user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.classes div .user h3{
+    color: #fe5d37;
+}
+.classes div  h4{
+    background-color: #fe5d37;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin:  0 10px 0  auto;
+}
+.classes .things,.classes.things2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.classes .things .one{
+    
+    margin: 20px 0 ;
+    transition: 1s;
+}
+
+.classes .things .one:hover{
+    transform: translate(0,-10px);
+}
+.classes .things2 .two{
+  
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.classes .things2 .two:hover{
+    transform: translate(0,-10px);
+}
+.classes .first{
+    display: none;
+}
+
+.catag div p{
+padding: 20px 48px 10px  10px ;
+}
+
+.catag{
+    display: flex; 
+}
+
+
+.catag div .orange{
+    width: 100%;
+    height: 10px;
+    margin: 10px 0 0 0;
+    background-color: #fe5d37;
+    
+}
+.catag div .green{
+    width: 100%;
+    height: 10px;
+    margin: 10px 0 0 0;
+    background-color: #198754;
+}
+.catag div .yellow{
+    width: 100%;
+    height: 10px;
+    margin: 10px 0 0 0;
+    background-color: #ffe207;
+    
+}
+
+
+.appoinment{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.appoinment h2{
+    padding: 40px 0 20px 0;
+    color: #103741;
+}
+
+.appoinment input{
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-align: left;
+    border: 1px solid lightgray;
+}
+.appoinment input[type='submit']{
+    padding: 10px 30px;
+    width: 50%;
+    text-align: center;
+    background-color: #fe5d37;
+    border-radius: 5px;
+    border: 1px solid #fe5d37;
+    color: #fff;
+}
+.appoinment div img{
+    width: 90%;
+    border-radius: 20px;
+}
+.appoinment textarea{
+    border: 1px solid lightgrey;
+}
+
+.teacher-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.teacher-1 h2{
+    margin: 40px 0 10px ;
+    
+}
+.teacher-1 .p{
+    padding: 30px;
+    text-align: justify;
+}
+
+
+.teacher-1 img{
+    width:70%;
+    border-radius: 100%;  
+    margin: 60px 0 -50px 0  ;  
+}
+
+.teacher-1 .round{
+    
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   background-color: #fff;
+    margin:-100px 0 30px 100px ;
+    position: relative;
+    z-index: 2;
+    gap:10px;
+    border: 10px solid #fff;
+    transition: 1s;
+}
+.teacher-1 .people:hover .round{
+    border:10px solid #fe5d37
+}
+.teacher-1 .round h3{
+    width: 80%;
+    color:#103741;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe5d37;
+    color: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 20px;
+    color: #74787c;
+
+}
+
+.testimonials h2,.testimonials .test span,.testimonials .group-2 .hide-1 span,.group-2 .hide span {
+    text-align: center;
+    color: #103741;
+    margin: 40px 0 10px 0;
+}
+
+.testimonials .test{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.testimonials .test img{
+    border-radius: 100%;
+    
+}
+.testimonials .hide,.testimonials .hide-1{
+    display: none;
+}
+
+
+.footer{
+    background-color: #103741;
+    display: flex;
+    flex-direction: column;
+    color: #74787c;
+}
+
+.footer img {
+    width:30%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    margin: 20px 0 20px 0;
+    padding: 0 10px;
+}
+
+.footer h2{
+    margin: 40px 0 10px 0 ;
+    color: #fff;
+}
+.footer ul,.footer .newsletter{
+margin: 0px 0 0 20px ;
+list-style: none;
+}
+.footer ul li{
+    margin:10px 0   ;
+}
+.footer .newsletter input[type='text']{
+    padding: 15px 30px;
+    background-color: #103741;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%; 
+}  
+.footer .newsletter input[type="submit"]{
+    
+    width: 30%;
+   
+    border-radius:5px;
+    color: #fff;
+    padding: 10px;
+    background-color: #fe5d37;
+    border: 1px solid #fe5d37;
+    align-self: flex-end;
+    
+
+    
+}
+
+.footer .newsletter .input{
+display: flex;
+position: relative;
+height: 100px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 9px 0 0;
+}
+.footer .newsletter .abs{
+    position: absolute;
+
+}
+
+@media screen and (min-width:768px) {
+    .herosection{
+        background-size: 100% 100%;
+        background-position: center;
+
+    }
+    .facilities{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    
+    
+    }
+    .facilities .main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .facilities .main .sub{
+    width: 23%;
+    }
+
+    .facilities .main .sub p{
+        padding: 10px 15px;
+        text-align: center;
+    }
+    
+    .activities{
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .activities img{
+        width: 40%;
+    }
+    .activities .children .child3{
+        margin: 0 0 0 20px;
+    }
+
+    .child1{
+        z-index: 4;
+    }
+
+    .teacher{
+        margin: 30px 0;
+    }
+    .teacher p{
+        font-size: 15px;
+        margin: 0 40px;
+    }
+    .teacher h2{
+        text-align: left;
+        margin: 0 0 0 70px;
+        font-size: 30px;
+    }
+
+    .classes h2{
+        color: #103741;
+        margin: 40px 0 10px ;
+    }
+
+    
+   .diff{
+        display: flex;
+        padding: 0 10px ;
+        gap:5px
+        
+    }
+    .first-1{
+        display: none;
+    }
+
+    .first{
+        display: block;
+    }   
+
+
+    .classes .first{
+        display: block;
+    }
+
+    .classes .catag div{
+        margin: 0 auto;
+        width: 100%;
+    }
+   .teacher-1 .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   } 
+   .teacher-1 .group{
+    width: 100%;
+    
+   }
+   .teacher-1 .group .people{
+    width:33%;
+   }
+   .teacher-1 .group .people .round{
+    width: 200px;
+    height: 200px;
+    margin: 0 0 30px 40px;
+    padding: 0 20px;
+   }
+   
+   .teacher-1 .group .people .round h3{
+    font-size: 20px;
+   }
+   .ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   }
+   .testimonials .hide-1{
+    display: block;
+   }
+
+   .group-2{
+    display: flex;
+    justify-content: space-around;
+
+   }
+   .group-2 div p{
+    padding: 10px 20px;
+   }
+   .testimonials p{
+    padding: 10px 20px;
+   }
+   .testimonials .test{
+    justify-content: center;
+   }
+.testimonials .group-2 .hide-1,.testimonials .group-2 .hide-0,.group-2 .hide{
+   width: 45%;
+   margin: 20px 0;
+   
+}
+}
+@media screen and (min-width:1024px) {
+    .head{
+        justify-content: space-between;
+    }
+    .head ul{
+        display: block;
+        list-style: none;
+     
+    }
+    .head ul button{
+        background-color: #fe5d37;
+        margin: 0 25px  0 180px;
+    }
+    .head ul li{
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    .head .ico{
+        display: none;
+    }
+
+    .herosection h1{
+        font-size: 60px;
+    }
+
+    .activities {
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+    .activities .para ,.activities .children{
+        width:40%
+    }
+
+    .teacher{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .teacher img, .teacher div{
+        width: 40%;
+    }
+    .teacher div{
+        width: 50%;
+        align-self: center;
+    }
+    .classes .things .first{
+        display:none
+    }
+    .classes .things{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .classes .things .one{
+        margin: 30px 5px;
+    }
+    .things2{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .classes .things2 .first-1{
+        display: block;
+        width: 30%;
+       
+
+    }
+    .classes .things2 .two{
+        margin: 30px 10px;
+    
+    }
+
+    .appoinment{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .appoinment .first{
+        align-self: center;
+        width: 60%;
+    }
+
+    .appoinment .second{
+        width: 35%;
+        align-self: center;
+    }
+    .appoinment input[type="email"]{
+        width: 40%;
+    }
+
+    .appoinment input[type="text"]{
+        width: 40%;
+    } 
+    
+    
+    .appoinment input[type='submit']{
+        width: 80%;
+    }
+    .appoinment textarea{  
+        width: 80%;
+    }
+
+    .teacher-1 p{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .teacher-1 .people .round{
+        width: 350px;
+        height: 350px;
+        margin: 0 0 40px 0;
+    }
+
+    .testimonials .hide{
+        display: block;
+       
+    }
+    .testimonials .p{
+        width: 75;
+        margin: 0 auto;
+    }
+    .footer{
+        flex-direction: row;
+        
+        
+    }
+    
+    .footer div{
+        width: 50%;
+    }
+    .footer .main{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+
+    .footer .newsletter .input{
+        width: 80%;
+    }
+
+    .footer .newsletter input[type='submit']{
+        right: 10px;
+    }
+
+    .footer .ul{
+        text-align: left;
+    }
+
+ 
+} 
+@media screen and (min-width:1440px){
+    .head ul button{
+        margin: 0 0 0 480px;
+    }
+    .herosection{
+      height: 500px;
+    }
+    .classes .one{
+        padding: 0 45px;
+       
+        
+    }
+    .classes .two{
+        padding:0 45px ;
+    }
+
+    .classes .first-1 h2{
+        margin: 70px 0 0;
+    }
+    .classes .first-1 .user{
+        margin: 20px 0 0 0;
+    }
+    
+}
+
